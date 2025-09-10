@@ -1,0 +1,18 @@
+{
+  "name": "cyberjaw/speedy-courier-bundle",
+  "description": "Speedy courier API integration for Symfony using Guzzle.",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": { "Cyberjaw\\SpeedyCourierBundle\\": "src/" }
+  },
+  "require": {
+    "php": ">=8.1",
+    "guzzlehttp/guzzle": "^7.9",
+    "symfony/dependency-injection": "^6.4|^7.0",
+    "symfony/config": "^6.4|^7.0",
+    "symfony/http-kernel": "^6.4|^7.0"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
